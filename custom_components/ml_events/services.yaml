@@ -1,0 +1,35 @@
+label_event:
+  name: Label Event
+  description: Add a label for an event happening right now
+  fields:
+    detector_name:
+      name: Detector Name
+      description: Name of the detector to add a label for
+      required: true
+      example: shower_active
+      selector:
+        text:
+
+train_model:
+  name: Train Model
+  description: Train the model using collected labeled events
+  fields:
+    detector_name:
+      name: Detector Name
+      description: Name of the detector to train
+      required: true
+      example: shower_active
+      selector:
+        text:
+
+clear_labels:
+  name: Clear Labels
+  description: Clear all collected labels for a detector
+  fields:
+    detector_name:
+      name: Detector Name
+      description: Name of the detector to clear labels for
+      required: true
+      example: shower_active
+      selector:
+        text:

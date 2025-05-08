@@ -1,0 +1,12 @@
+{
+    "domain": "ml_events",
+    "name": "ML Events",
+    "documentation": "https://github.com/tmisker/ha-ml-events",
+    "issue_tracker": "https://github.com/tmisker/ha-ml-events/issues",
+    "dependencies": ["recorder"],
+    "config_flow": true,
+    "codeowners": ["@tmisker"],
+    "requirements": ["scikit-learn>=1.0.2", "pandas>=1.3.5", "joblib>=1.1.0"],
+    "version": "0.1.0",
+    "iot_class": "local_polling"
+  }
