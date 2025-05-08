@@ -1,0 +1,8 @@
+{
+    "name": "ML Events",
+    "render_readme": true,
+    "domain": "ml_events",
+    "documentation": "https://github.com/tmisker/ha-ml-events",
+    "issue_tracker": "https://github.com/tmisker/ha-ml-events/issues",
+    "content_in_root": false
+  }
